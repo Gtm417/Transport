@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="" />
+    <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/bl/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/entity/ComfortLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/entity/FreightWagon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/entity/Locomotive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/entity/Passenger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/entity/PassengerWagon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/entity/TrainUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/view/ConsoleView.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +29,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UNoAj25baiKymsSEaBC4pDV0We" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="Template Data Languages" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.company.model.entity" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,5 +79,16 @@
       <updated>1575206271486</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
