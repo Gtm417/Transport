@@ -1,0 +1,9 @@
+com\company\model\entity\ComfortLevel.class
+com\company\Main.class
+com\company\model\entity\Locomotive.class
+com\company\model\bl\Train.class
+com\company\model\entity\FreightWagon.class
+com\company\model\entity\Wagon.class
+com\company\model\entity\Passenger.class
+com\company\model\entity\PassengerWagon.class
+com\company\view\ConsoleView.class
