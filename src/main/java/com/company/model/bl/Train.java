@@ -1,9 +1,6 @@
 package com.company.model.bl;
 
-import com.company.model.entity.FreightWagon;
-import com.company.model.entity.Locomotive;
-import com.company.model.entity.PassengerWagon;
-import com.company.model.entity.Wagon;
+import com.company.model.entity.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -50,6 +47,19 @@ public class Train {
             }
         }
         return totalCapacity;
+    }
+    // Диапазон считается включительно
+    public ArrayList<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
+        ArrayList<Wagon> resultListOfWagons = new ArrayList<>();
+        for(Wagon wagon : wagons){
+            if(wagon instanceof PassengerWagon){
+                PassengerWagon passengerWagon = (PassengerWagon) wagon;
+                if(passengerWagon.getAmountOfPassengers() <= maxPassengers && passengerWagon.getAmountOfPassengers() >= minPassengers){
+                    resultListOfWagons.add(wagon);
+                }
+            }
+        }
+        return resultListOfWagons;
     }
 
     public String wagonsToString(){

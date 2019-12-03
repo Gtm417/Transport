@@ -78,7 +78,6 @@ public class TrainTest {
         initializeCargoTrain();
         train.getSortedWagons();
         assertTrue(train.wagonsToString(), isSorted(train.getWagons()));
-        System.out.println(train.wagonsToString());
 
     }
 
@@ -87,7 +86,6 @@ public class TrainTest {
         initializeMixWagonTrain();
         train.getSortedWagons();
         assertTrue(train.wagonsToString(),isSorted(train.getWagons()));
-        System.out.println(train.wagonsToString());
     }
 
     @Test
@@ -109,5 +107,24 @@ public class TrainTest {
         initializeCargoTrain();
         int resultValue = train.getTotalCurrentCarryingCapacityOfTrain();
         assertEquals(20, resultValue);
+    }
+
+    @Test
+    public void testGetWagonsInPassengerDiapason(){
+        initializePassengerTrain();
+        int minBarrier = 1;
+        int maxBarrier = 3;
+        ArrayList<Wagon> wagonsInDiapason = train.getWagonsInPassengerDiapason(minBarrier,maxBarrier);
+        assertTrue(isEveryWagonInDiapason(wagonsInDiapason,minBarrier,maxBarrier));
+    }
+
+    private boolean isEveryWagonInDiapason(ArrayList<Wagon> wagons, int minBarrier, int maxBarrier) {
+        for(Wagon wagon : wagons){
+            PassengerWagon passengerWagon = (PassengerWagon) wagon;
+            if(passengerWagon.getAmountOfPassengers() < minBarrier || passengerWagon.getAmountOfPassengers() > maxBarrier){
+                return false;
+            }
+        }
+        return true;
     }
 }
