@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/model/entity/FreightWagonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/entity/FreightWagonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/entity/FreightWagonTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575376727935</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tests FreightWagons to PassengerWagons (File FreightTests)">
+      <created>1575377423978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575377423978</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -177,6 +182,7 @@
     <MESSAGE value="Train Tests" />
     <MESSAGE value="Train Test (CurrentCapacity)" />
     <MESSAGE value="Train Sorted Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Train Sorted Tests" />
+    <MESSAGE value="Tests FreightWagons to PassengerWagons (File FreightTests)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests FreightWagons to PassengerWagons (File FreightTests)" />
   </component>
 </project>
