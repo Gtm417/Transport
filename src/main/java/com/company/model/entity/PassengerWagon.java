@@ -8,6 +8,11 @@ public class PassengerWagon extends Wagon {
     private ComfortLevel comfortLevel;
 
 
+    public PassengerWagon(String name, int number, ComfortLevel comfortLevel) {
+        super(name, number);
+        this.comfortLevel = comfortLevel;
+    }
+
     public PassengerWagon(String name, int number, int maxValueOfPassengers, ComfortLevel comfortLevel, ArrayList<Passenger> passengers) {
         super(name, number);
         this.maxValueOfPassengers = maxValueOfPassengers;
