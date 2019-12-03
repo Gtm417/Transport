@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/model/entity/PassengerWagonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/entity/FreightWagonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/entity/FreightWagonTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FreightWagonTest">
+  <component name="RunManager" selected="JUnit.PassengerWagonTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Transport" />
@@ -83,6 +83,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PassengerWagonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Transport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.model.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.model.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.company.model.entity.PassengerWagonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Transport" />
       <extension name="coverage">
@@ -100,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassengerWagonTest" />
         <item itemvalue="JUnit.FreightWagonTest" />
         <item itemvalue="JUnit.TrainTest" />
       </list>
@@ -151,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575377423978</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tests compareTo FreightWagons (Bigger to Less, Less to Bigger and Equals)">
+      <created>1575378210197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575378210197</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -183,6 +206,7 @@
     <MESSAGE value="Train Test (CurrentCapacity)" />
     <MESSAGE value="Train Sorted Tests" />
     <MESSAGE value="Tests FreightWagons to PassengerWagons (File FreightTests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests FreightWagons to PassengerWagons (File FreightTests)" />
+    <MESSAGE value="Tests compareTo FreightWagons (Bigger to Less, Less to Bigger and Equals)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests compareTo FreightWagons (Bigger to Less, Less to Bigger and Equals)" />
   </component>
 </project>

@@ -5,12 +5,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class FreightWagonTest {
-    FreightWagon freightWagon = new FreightWagon("name",312,8,54);
-    @Test
-    public void testCompareToPassengerWagonToFreight() {
-        int result = (new PassengerWagon("name2", 312,ComfortLevel.NORMAL).compareTo(freightWagon));
-        assertEquals(-1, result);
-    }
+    private FreightWagon freightWagon = new FreightWagon("name",312,8,54);
+
 
     @Test
     public void testCompareToFreightWagonToPassenger() {
