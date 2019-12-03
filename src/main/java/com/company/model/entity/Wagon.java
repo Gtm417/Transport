@@ -13,6 +13,9 @@ public abstract class Wagon implements Comparable<Wagon>  {
     public abstract int compareTo(Wagon wagon);
 
     @Override
+    public abstract String toString();
+
+    @Override
     public int hashCode() {
         return (number * 56 + ((name == null) ? 0 : name.hashCode()));
     }

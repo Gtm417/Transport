@@ -18,7 +18,7 @@ public class Train {
         this.locomotive = locomotive;
     }
 
-    public void getSortedPassengerWagonsByComfortLevel(){
+    public void getSortedWagons(){
         Collections.sort(wagons);
     }
 
@@ -50,6 +50,14 @@ public class Train {
             }
         }
         return totalCapacity;
+    }
+
+    public String wagonsToString(){
+        StringBuilder stringBuilder = new StringBuilder();
+        for(Wagon wagon : wagons){
+            stringBuilder.append(wagon.toString());
+        }
+        return stringBuilder.toString();
     }
 
     public ArrayList<Wagon> getWagons() {

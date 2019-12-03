@@ -27,17 +27,19 @@ public class PassengerWagon extends Wagon {
         return resultWeight;
     }
 
+
     @Override
+    // Пассажирский вагон всегда меньше чем грузовой
     public int compareTo(Wagon wagon) {
         if(wagon instanceof FreightWagon){
-            return 1;
+            return -1;
         }
         return compare(wagon);
     }
 
     private int compare(Wagon wagon) {
         PassengerWagon passengerWagon = (PassengerWagon) wagon;
-        if(this == passengerWagon) {
+        if(this == passengerWagon || this.comfortLevel.ordinal() == passengerWagon.comfortLevel.ordinal()) {
             return 0;
         }
         if(this.comfortLevel.ordinal() > passengerWagon.comfortLevel.ordinal()){
@@ -45,6 +47,17 @@ public class PassengerWagon extends Wagon {
         }
         return -1;
     }
+
+    @Override
+    public String toString() {
+        return "PassengerWagon{" +
+                "name= " + super.getName() +
+                "maxValueOfPassengers=" + maxValueOfPassengers +
+                ", passengers=" + passengers +
+                ", comfortLevel=" + comfortLevel +
+                '}';
+    }
+
     private void addPassenger(Passenger passenger){
         if(maxValueOfPassengers > passengers.size()){
             passengers.add(passenger);
