@@ -42,11 +42,11 @@ public class Train {
         return baggageRes;
     }
 
-    public int getTotalCarryingCapacityOfTrain(){
+    public int getTotalCurrentCarryingCapacityOfTrain(){
         int totalCapacity = 0;
         for(Wagon wagon : wagons){
             if(wagon instanceof FreightWagon){
-                totalCapacity += ((FreightWagon) wagon).getCarryingCapacity();
+                totalCapacity += ((FreightWagon) wagon).getCurrentCarryingCapacity();
             }
         }
         return totalCapacity;

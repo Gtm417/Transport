@@ -1,11 +1,12 @@
 package com.company.model.entity;
 
 public class FreightWagon extends Wagon {
-    private int carryingCapacity; // in tons
+    private int currentCarryingCapacity; // in tons
+    private int maxCarryingCapacity;
 
-    public FreightWagon(String name, int number, int carryingCapacity) {
+    public FreightWagon(String name, int number, int currentCarryingCapacity) {
         super(name, number);
-        this.carryingCapacity = carryingCapacity;
+        this.currentCarryingCapacity = currentCarryingCapacity;
     }
 
     @Override
@@ -20,11 +21,21 @@ public class FreightWagon extends Wagon {
         return 0;
     }
 
-    public int getCarryingCapacity() {
-        return carryingCapacity;
+    public int getCurrentCarryingCapacity() {
+        return currentCarryingCapacity;
     }
 
-    public void setCarryingCapacity(int carryingCapacity) {
-        this.carryingCapacity = carryingCapacity;
+    public void setCurrentCarryingCapacity(int currentCarryingCapacity) {
+        if(currentCarryingCapacity < maxCarryingCapacity){
+            this.currentCarryingCapacity = currentCarryingCapacity;
+        }
+    }
+
+    public int getMaxCarryingCapacity() {
+        return maxCarryingCapacity;
+    }
+
+    public void setMaxCarryingCapacity(int maxCarryingCapacity) {
+        this.maxCarryingCapacity = maxCarryingCapacity;
     }
 }

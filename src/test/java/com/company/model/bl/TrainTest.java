@@ -56,5 +56,7 @@ public class TrainTest {
     @Test
     public void getTotalCarryingCapacityOfTrain() {
         initializeCargoTrain();
+        int resultValue = train.getTotalCurrentCarryingCapacityOfTrain();
+        assertEquals(15, resultValue);
     }
 }

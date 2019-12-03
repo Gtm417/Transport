@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="Реализация метода compareTo для Вагонов и сортировка Вагонов поезда">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" afterDir="false" />
+    <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Transport.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/ComfortLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/ComfortLevel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Locomotive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Locomotive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575320005555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Train Tests">
+      <created>1575360712473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575360712473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -149,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализация метода compareTo для Вагонов и сортировка Вагонов поезда" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализация метода compareTo для Вагонов и сортировка Вагонов поезда" />
+    <MESSAGE value="Train Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Train Tests" />
   </component>
 </project>
