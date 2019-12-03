@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="Реализация метода compareTo для Вагонов и сортировка Вагонов поезда">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Transport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/ComfortLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/ComfortLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Locomotive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Locomotive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +33,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -25,12 +43,20 @@
   <component name="ProjectId" id="1UNoAj25baiKymsSEaBC4pDV0We" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="Template Data Languages" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.model.bl" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.company.model.entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -45,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TrainTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Transport" />
@@ -56,6 +82,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Transport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.model.bl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.model.bl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.model.bl.TrainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TrainTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,12 +124,24 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

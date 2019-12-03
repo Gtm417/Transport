@@ -20,7 +20,6 @@ public class FreightWagon extends Wagon {
         return 0;
     }
 
-
     public int getCarryingCapacity() {
         return carryingCapacity;
     }

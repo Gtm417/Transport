@@ -20,7 +20,7 @@ public class PassengerWagon extends Wagon {
     }
 
     public double getBaggageWeight(){
-        int resultWeight = 0;
+        double resultWeight = 0.0;
         for(Passenger passenger : passengers) {
             resultWeight += passenger.getBaggageWeight();
         }
@@ -44,6 +44,11 @@ public class PassengerWagon extends Wagon {
             return 1;
         }
         return -1;
+    }
+    private void addPassenger(Passenger passenger){
+        if(maxValueOfPassengers > passengers.size()){
+            passengers.add(passenger);
+        }
     }
 
     public int getAmountOfPassengers() {

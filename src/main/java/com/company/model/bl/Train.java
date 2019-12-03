@@ -1,5 +1,6 @@
 package com.company.model.bl;
 
+import com.company.model.entity.FreightWagon;
 import com.company.model.entity.Locomotive;
 import com.company.model.entity.PassengerWagon;
 import com.company.model.entity.Wagon;
@@ -32,13 +33,23 @@ public class Train {
     }
 
     public double getTotalBaggageWeight(){
-        int baggageRes = 0;
+        double baggageRes = 0.0;
         for(Wagon wagon : wagons){
             if(wagon instanceof PassengerWagon){
                 baggageRes += ((PassengerWagon) wagon).getBaggageWeight();
             }
         }
         return baggageRes;
+    }
+
+    public int getTotalCarryingCapacityOfTrain(){
+        int totalCapacity = 0;
+        for(Wagon wagon : wagons){
+            if(wagon instanceof FreightWagon){
+                totalCapacity += ((FreightWagon) wagon).getCarryingCapacity();
+            }
+        }
+        return totalCapacity;
     }
 
     public ArrayList<Wagon> getWagons() {

@@ -4,7 +4,7 @@ public class Locomotive {
     private int speed;
     private int power;
 
-    public Locomotive(String name, int number, int speed, int power) {
+    public Locomotive(int speed, int power) {
         this.speed = speed;
         this.power = power;
     }
