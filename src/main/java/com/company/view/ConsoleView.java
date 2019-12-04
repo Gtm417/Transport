@@ -47,7 +47,7 @@ public class ConsoleView implements ViewConstants {
 
     public void printTrainWagonsInPassengerDiapason(String message) {
         printMessage(concatenationString(
-                bundle.getString(PRINT_SORTED_TRAIN_WAGONS),
+                bundle.getString(PRINT_TRAIN_WAGONS_IN_DIAPASON),
                 bundle.getString(message)));
     }
 

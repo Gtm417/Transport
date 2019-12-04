@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="Added initializeData (Enum Trains)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/GenerateTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/Trains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/view/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrainTest">
+  <component name="RunManager" selected="JUnit.PassengerWagonTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Transport" />
@@ -124,9 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrainTest" />
         <item itemvalue="JUnit.PassengerWagonTest" />
         <item itemvalue="JUnit.FreightWagonTest" />
+        <item itemvalue="JUnit.TrainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575378616547</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added initializeData (Enum Trains)">
+      <created>1575488220421</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575488220421</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -225,6 +230,7 @@
     <MESSAGE value="Tests compareTo FreightWagons (Bigger to Less, Less to Bigger and Equals)" />
     <MESSAGE value="Tests compareTo PassengerWagons to FreightWagons" />
     <MESSAGE value="added ResourceBundle &quot;messages&quot;,  ViewConstants, Finish class ConsoleView" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ResourceBundle &quot;messages&quot;,  ViewConstants, Finish class ConsoleView" />
+    <MESSAGE value="Added initializeData (Enum Trains)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initializeData (Enum Trains)" />
   </component>
 </project>
