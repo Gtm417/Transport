@@ -15,7 +15,7 @@ public class Train {
         this.locomotive = locomotive;
     }
 
-    public void getSortedWagons(){
+    public void sortWagons(){
         Collections.sort(wagons);
     }
 
@@ -48,6 +48,9 @@ public class Train {
         }
         return totalCapacity;
     }
+
+
+
     // Диапазон считается включительно
     public ArrayList<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
         ArrayList<Wagon> resultListOfWagons = new ArrayList<>();
@@ -62,12 +65,23 @@ public class Train {
         return resultListOfWagons;
     }
 
-    public String wagonsToString(){
+    //??
+    public String wagonsToString(ArrayList<Wagon> wagons){
         StringBuilder stringBuilder = new StringBuilder();
         for(Wagon wagon : wagons){
             stringBuilder.append(wagon.toString());
+            stringBuilder.append("\n");
         }
         return stringBuilder.toString();
+    }
+
+    @Override
+    public String toString() {
+        return "Train has: "
+                + wagons.size() + " wagons, "
+                + getTotalNumberOfPassengers() + " passengers, "
+                + getTotalBaggageWeight() + " baggage weight, "
+                + getTotalCurrentCarryingCapacityOfTrain() + " carrying capacity freights wagons";
     }
 
     public ArrayList<Wagon> getWagons() {

@@ -57,9 +57,10 @@ public class PassengerWagon extends Wagon {
     public String toString() {
         return "PassengerWagon{" +
                 "name= " + super.getName() +
-                "maxValueOfPassengers=" + maxValueOfPassengers +
-                ", passengers=" + passengers +
-                ", comfortLevel=" + comfortLevel +
+                "maxValueOfPassengers= " + maxValueOfPassengers +
+                ", passengers amount= " + passengers.size() +
+                ", passengers baggage weight= " + getBaggageWeight() +
+                ", comfortLevel= " + comfortLevel +
                 '}';
     }
 

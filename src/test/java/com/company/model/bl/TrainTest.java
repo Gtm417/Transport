@@ -26,23 +26,23 @@ public class TrainTest {
     @Test
     public void getSortedPassengerWagonsByComfortLevel(){
         train = GenerateTrain.initializePassengerTrain();
-        train.getSortedWagons();
-        assertTrue(train.wagonsToString(), isSorted(train.getWagons()));
+        train.sortWagons();
+        assertTrue(train.wagonsToString(train.getWagons()), isSorted(train.getWagons()));
     }
 
     @Test
     public void getSortedFreightWagonsByMaxCarryingCapacity() {
         train = GenerateTrain.initializeCargoTrain();
-        train.getSortedWagons();
-        assertTrue(train.wagonsToString(), isSorted(train.getWagons()));
+        train.sortWagons();
+        assertTrue(train.wagonsToString(train.getWagons()), isSorted(train.getWagons()));
 
     }
 
     @Test
     public void getSortedMixWagons() {
         train = GenerateTrain.initializeMixWagonTrain();
-        train.getSortedWagons();
-        assertTrue(train.wagonsToString(),isSorted(train.getWagons()));
+        train.sortWagons();
+        assertTrue(train.wagonsToString(train.getWagons()),isSorted(train.getWagons()));
     }
 
     @Test

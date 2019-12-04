@@ -9,6 +9,13 @@ public class Passenger {
         this.baggageWeight = baggageWeight;
     }
 
+    @Override
+    public String toString() {
+        return "Passenger{" +
+                "name= '" + name + '\'' +
+                '}';
+    }
+
     public String getName(){
         return name;
     }

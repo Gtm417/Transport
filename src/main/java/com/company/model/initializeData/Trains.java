@@ -14,7 +14,6 @@ public enum Trains {
     Train train;
 
     private Trains (Train train){
-
         this.train = train;
     }
 
