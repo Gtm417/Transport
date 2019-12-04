@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/entity/PassengerWagonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/entity/PassengerWagonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575378616547</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Method getWagonsInPassengerDiapason (with tests)">
+      <created>1575382449340</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575382449340</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -200,6 +203,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -208,6 +216,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,6 +231,7 @@
     <MESSAGE value="Tests FreightWagons to PassengerWagons (File FreightTests)" />
     <MESSAGE value="Tests compareTo FreightWagons (Bigger to Less, Less to Bigger and Equals)" />
     <MESSAGE value="Tests compareTo PassengerWagons to FreightWagons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests compareTo PassengerWagons to FreightWagons" />
+    <MESSAGE value="Method getWagonsInPassengerDiapason (with tests)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method getWagonsInPassengerDiapason (with tests)" />
   </component>
 </project>
