@@ -22,9 +22,9 @@ public class ConsoleView {
     private static final ResourceBundle bundle =
             ResourceBundle.getBundle(
                     MESSAGES_BUNDLE_NAME,
-                    //new Locale("ukr", "UKR"));  // Ukrainian
+                    new Locale("ukr", "UKR"));  // Ukrainian
                     //new Locale("ru", "RU"));  // Ukrainian
-                    new Locale("en"));        // English
+                    //new Locale("en"));        // English
 
     /**
      * concatenate String params

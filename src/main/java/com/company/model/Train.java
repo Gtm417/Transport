@@ -79,7 +79,6 @@ public class Train {
      * @param maxPassengers maximum amount of passengers
      * @return ArrayList of Wagons that in range
      */
-    // Диапазон считается включительно
     public ArrayList<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
         ArrayList<Wagon> resultListOfWagons = new ArrayList<>();
         for(Wagon wagon : wagons){
