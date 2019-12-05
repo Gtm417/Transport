@@ -1,5 +1,12 @@
 package com.company.model.entity;
 
+/**
+ * abstract  class describes Wagons
+ * implements interface Comparable for compare wagons
+ * @author Hodik Timofey
+ * @see java.lang.Comparable
+ */
+
 public abstract class Wagon implements Comparable<Wagon>  {
     private String name;
     private int number;

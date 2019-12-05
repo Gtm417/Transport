@@ -1,9 +1,19 @@
 package com.company.model.initializeData;
 
-import com.company.model.bl.Train;
-import com.company.model.entity.*;
+import com.company.model.Train;
 
-import java.util.ArrayList;
+/**
+ * Started data for work program
+ * Using GenerateTrain
+ * Enum has  3 variants of trains:
+ * 1) passenger train
+ * 2) cargo train
+ * 3) mix train
+ * @author Hodik Timofey
+ * @see Train
+ * @see java.lang.Enum
+ * @see GenerateTrain
+ */
 
 public enum Trains {
 
@@ -13,7 +23,7 @@ public enum Trains {
 
     Train train;
 
-    private Trains (Train train){
+     Trains (Train train){
         this.train = train;
     }
 

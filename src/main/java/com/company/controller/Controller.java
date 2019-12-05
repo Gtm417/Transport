@@ -1,9 +1,12 @@
 package com.company.controller;
 
-import com.company.model.bl.Train;
+import com.company.model.Train;
 import com.company.view.ConsoleView;
 
-
+/**
+ * Controller
+ * @author Hodik Timofey
+ */
 
 import static com.company.view.ViewConstants.*;
 
@@ -20,13 +23,16 @@ public class Controller {
         this.train = train;
     }
 
+    /**
+     * process program
+     */
     public void process(){
         view.printUniversalMessage(PRINT_TRAIN_DATA,train.toString());
-        view.printUniversalMessage(PRINT_TRAIN_WAGONS, train.wagonsToString(train.getWagons()));
+        view.printUniversalMessage(PRINT_TRAIN_WAGONS, train.getWagons().toString());
         train.sortWagons();
-        view.printUniversalMessage(PRINT_SORTED_TRAIN_WAGONS,train.wagonsToString(train.getWagons()));
-        view.printUniversalMessage(PRINT_TRAIN_WAGONS_IN_DIAPASON, train.wagonsToString(
-                train.getWagonsInPassengerDiapason(MIN_BARRIER_OF_AMOUNT_PASSENGERS, MAX_BARRIER_OF_AMOUNT_PASSENGERS)));
+        view.printUniversalMessage(PRINT_SORTED_TRAIN_WAGONS,train.getWagons().toString());
+        view.printUniversalMessage(PRINT_TRAIN_WAGONS_IN_DIAPASON,
+                train.getWagonsInPassengerDiapason(MIN_BARRIER_OF_AMOUNT_PASSENGERS, MAX_BARRIER_OF_AMOUNT_PASSENGERS).toString());
 
     }
 }

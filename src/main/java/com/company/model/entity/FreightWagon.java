@@ -1,8 +1,18 @@
 package com.company.model.entity;
 
+    /**
+    * describes freight wagon
+     * extends from abstract Wagon
+     * @see Wagon
+     * @author Hodik Timofey
+     *
+    */
 public class FreightWagon extends Wagon {
-    private int currentCarryingCapacity; // in tons
+        /** wagon current carrying capacity in tons*/
+    private int currentCarryingCapacity;
+        /** wagon maximum carrying capacity in tons*/
     private int maxCarryingCapacity;
+
 
     public FreightWagon(String name, int number, int currentCarryingCapacity, int maxCarryingCapacity) {
         super(name, number);
@@ -10,8 +20,16 @@ public class FreightWagon extends Wagon {
         this.maxCarryingCapacity = maxCarryingCapacity;
     }
 
+        /**
+         * compare this wagon with another
+         * Freight wagon always bigger than  passenger
+         * @param wagon with which compare
+         * @return 0 if wagons equals
+         * @return -1 if this wagon less than with which compare
+         * @return 1 if this wagon bigger than with which compare
+         * @return 1 if wagon with which compare is passenger wagon
+         */
     @Override
-    // Грузовой вагон всегда больше чеи пассажирский
     public int compareTo(Wagon wagon) {
         if(wagon instanceof PassengerWagon){
             return 1;
@@ -36,7 +54,7 @@ public class FreightWagon extends Wagon {
                 "name" + super.getName() +
                 "currentCarryingCapacity=" + currentCarryingCapacity +
                 ", maxCarryingCapacity=" + maxCarryingCapacity +
-                '}';
+                '}' + "\n";
     }
 
     public int getCurrentCarryingCapacity() {

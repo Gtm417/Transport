@@ -2,6 +2,12 @@ package com.company.model.entity;
 
 import java.util.ArrayList;
 
+/**
+ * Describes passenger wagons
+ * @author Hodik Timofey
+ *
+ */
+
 public class PassengerWagon extends Wagon {
     private int maxValueOfPassengers;
     private ArrayList<Passenger> passengers;
@@ -20,10 +26,13 @@ public class PassengerWagon extends Wagon {
         this.passengers = passengers;
     }
 
-    public int getMaxValueOfPassengers(){
-        return maxValueOfPassengers;
-    }
 
+
+    /**
+     * get baggage weight every passenger and sum
+     * @return resultWeight sum baggage weight
+     * @return 0.0 if wagon hasn't passengers
+     */
     public double getBaggageWeight(){
         double resultWeight = 0.0;
         for(Passenger passenger : passengers) {
@@ -32,9 +41,16 @@ public class PassengerWagon extends Wagon {
         return resultWeight;
     }
 
-
+    /**
+     * compare this wagon with another
+     * Freight wagon always bigger than  passenger
+     * @param wagon with which compare
+     * @return 0 if wagons equals
+     * @return -1 if this wagon less than with which compare
+     * @return 1 if this wagon bigger than with which compare
+     * @return -1 if wagon with which compare is freight wagon
+     */
     @Override
-    // Пассажирский вагон всегда меньше чем грузовой
     public int compareTo(Wagon wagon) {
         if(wagon instanceof FreightWagon){
             return -1;
@@ -61,17 +77,16 @@ public class PassengerWagon extends Wagon {
                 ", passengers amount= " + passengers.size() +
                 ", passengers baggage weight= " + getBaggageWeight() +
                 ", comfortLevel= " + comfortLevel +
-                '}';
+                '}' + "\n";
     }
 
-    private void addPassenger(Passenger passenger){
-        if(maxValueOfPassengers > passengers.size()){
-            passengers.add(passenger);
-        }
-    }
 
     public int getAmountOfPassengers() {
         return passengers.size();
+    }
+
+    public int getMaxValueOfPassengers(){
+        return maxValueOfPassengers;
     }
 
     public void setMaxValueOfPassengers(int maxValueOfPassengers) {

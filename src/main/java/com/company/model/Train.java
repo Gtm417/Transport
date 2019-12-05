@@ -1,9 +1,16 @@
-package com.company.model.bl;
+package com.company.model;
 
 import com.company.model.entity.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
+/**
+ * describe train and has main functions described in task
+ * Train may have passenger wagons and freight wagons together
+ * @author Hodik Timofey
+ *
+ */
 
 public class Train {
     private ArrayList<Wagon> wagons;
@@ -15,10 +22,18 @@ public class Train {
         this.locomotive = locomotive;
     }
 
+    /**
+     * sorting train wagons using methods Wagon compareTo
+     * Collection.sort using merge sort or binary sort
+     */
     public void sortWagons(){
         Collections.sort(wagons);
     }
 
+    /**
+     * If train has only freight wagons method return 0;
+     * @return sum of passenger amount in all wagons
+     */
     public int getTotalNumberOfPassengers(){
         int passengerRes = 0;
         for(Wagon wagon : wagons){
@@ -29,6 +44,10 @@ public class Train {
         return passengerRes;
     }
 
+    /**
+     * If train has only freight wagons method return 0.0;
+     * @return sum of passenger baggage weight in all wagons
+     */
     public double getTotalBaggageWeight(){
         double baggageRes = 0.0;
         for(Wagon wagon : wagons){
@@ -39,6 +58,10 @@ public class Train {
         return baggageRes;
     }
 
+    /**
+     * If train has only passenger wagons method return 0;
+     * @return sum of carrying capacity in all freight wagons
+     */
     public int getTotalCurrentCarryingCapacityOfTrain(){
         int totalCapacity = 0;
         for(Wagon wagon : wagons){
@@ -50,7 +73,12 @@ public class Train {
     }
 
 
-
+    /**
+     * range is considered inclusive
+     * @param minPassengers minimum amount of passengers
+     * @param maxPassengers maximum amount of passengers
+     * @return ArrayList of Wagons that in range
+     */
     // Диапазон считается включительно
     public ArrayList<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
         ArrayList<Wagon> resultListOfWagons = new ArrayList<>();
@@ -63,16 +91,6 @@ public class Train {
             }
         }
         return resultListOfWagons;
-    }
-
-    //??
-    public String wagonsToString(ArrayList<Wagon> wagons){
-        StringBuilder stringBuilder = new StringBuilder();
-        for(Wagon wagon : wagons){
-            stringBuilder.append(wagon.toString());
-            stringBuilder.append("\n");
-        }
-        return stringBuilder.toString();
     }
 
     @Override

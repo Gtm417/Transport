@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="Added initializeData (Enum Trains)">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message_uk.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/message_ukr.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/ComfortLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/ComfortLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Passenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Wagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Wagon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/GenerateTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/GenerateTrain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/Trains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/Trains.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/view/ConsoleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_uk.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Transport-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Transport-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/view/ViewConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/view/ViewConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
@@ -69,6 +64,9 @@
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.company.model.entity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.company.model" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -131,12 +129,12 @@
       <module name="Transport" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.model.bl.*" />
+          <option name="PATTERN" value="com.company.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company.model.bl" />
-      <option name="MAIN_CLASS_NAME" value="com.company.model.bl.TrainTest" />
+      <option name="PACKAGE_NAME" value="com.company.model" />
+      <option name="MAIN_CLASS_NAME" value="com.company.model.TrainTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575488220421</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finish ConsoleView, properties, changed controller">
+      <created>1575499264825</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575499264825</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -254,6 +259,7 @@
     <MESSAGE value="Tests compareTo PassengerWagons to FreightWagons" />
     <MESSAGE value="added ResourceBundle &quot;messages&quot;,  ViewConstants, Finish class ConsoleView" />
     <MESSAGE value="Added initializeData (Enum Trains)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added initializeData (Enum Trains)" />
+    <MESSAGE value="finish ConsoleView, properties, changed controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish ConsoleView, properties, changed controller" />
   </component>
 </project>

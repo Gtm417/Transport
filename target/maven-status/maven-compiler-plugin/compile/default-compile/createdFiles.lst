@@ -3,6 +3,8 @@ com\company\model\entity\FreightWagon.class
 com\company\model\entity\Wagon.class
 com\company\model\entity\PassengerWagon.class
 com\company\view\ConsoleView.class
+com\company\model\initializeData\Trains.class
+com\company\model\initializeData\GenerateTrain.class
 com\company\model\entity\ComfortLevel.class
 com\company\Main.class
 com\company\model\bl\Train.class

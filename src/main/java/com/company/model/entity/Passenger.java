@@ -1,5 +1,12 @@
 package com.company.model.entity;
 
+/**
+ * Passenger wagon passenger
+ * Describes passenger
+ * @author Hodik Timofey
+ * @see PassengerWagon
+ */
+
 public class Passenger {
     private String  name;
     private double baggageWeight;

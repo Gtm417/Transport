@@ -1,6 +1,13 @@
 package com.company.model.entity;
 
+/**
+ * Moving part of train
+ * Describes locomotive
+ * @author Hodik Timofey
+ * @see com.company.model.Train
+ */
 public class Locomotive {
+
     private int speed;
     private int power;
 
