@@ -4,25 +4,19 @@
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/bl/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/ComfortLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/ComfortLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Wagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Wagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/GenerateTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/GenerateTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/Trains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/Trains.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/view/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/view/ConsoleView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/view/ViewConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/view/ViewConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/bl/TrainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/bl/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/message_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/message_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/message_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/message_ru.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/message_ukr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/message_ukr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/ComfortLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/ComfortLevel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Locomotive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Locomotive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Wagon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/view/ConsoleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575499264825</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JavaDOC">
+      <created>1575550656445</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575550656445</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -260,6 +261,7 @@
     <MESSAGE value="added ResourceBundle &quot;messages&quot;,  ViewConstants, Finish class ConsoleView" />
     <MESSAGE value="Added initializeData (Enum Trains)" />
     <MESSAGE value="finish ConsoleView, properties, changed controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish ConsoleView, properties, changed controller" />
+    <MESSAGE value="JavaDOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaDOC" />
   </component>
 </project>

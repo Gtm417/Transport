@@ -49,6 +49,15 @@ public class ConsoleView {
         printMessage(concatenationString(bundle.getString(resourceBundle), message));
     }
 
+    public void printMessageWagonsInDiapason(int minBarrier, int maxBarrier, String arrayMessage){
+        printMessage(concatenationString(bundle.getString(PRINT_TRAIN_WAGONS_IN_DIAPASON),
+                OPEN_BRACKET,
+                String.valueOf(minBarrier),
+                " ",
+                String.valueOf(maxBarrier),
+                CLOSE_BRACKET, "\n",
+                arrayMessage));
+    }
 
 
 }

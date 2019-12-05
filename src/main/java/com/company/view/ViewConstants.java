@@ -11,4 +11,7 @@ public interface ViewConstants {
     String PRINT_SORTED_TRAIN_WAGONS = "print.sorted.train.wagons";
     String PRINT_TRAIN_WAGONS_IN_DIAPASON = "print.train.wagons.in.diapason";
 
+    String OPEN_BRACKET = "[ ";
+    String CLOSE_BRACKET = " ]";
+
 }
