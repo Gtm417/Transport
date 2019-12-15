@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/ITraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/FreightWagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Locomotive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/TrainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/entity/PassengerWagonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/entity/PassengerWagonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/FreightWagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/model/entity/PassengerWagonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/model/entity/PassengerWagonTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FreightWagonTest">
+  <component name="RunManager" selected="JUnit.PassengerWagonTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Transport" />
@@ -134,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassengerWagonTest" />
         <item itemvalue="JUnit.FreightWagonTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.PassengerWagonTest" />
         <item itemvalue="JUnit.TrainTest" />
       </list>
     </recent_temporary>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575551602272</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="interface ITraction, edited FreightWagon compareTo">
+      <created>1576418203097</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576418203097</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -268,6 +275,7 @@
     <MESSAGE value="finish ConsoleView, properties, changed controller" />
     <MESSAGE value="JavaDOC" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="interface ITraction, edited FreightWagon compareTo" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface ITraction, edited FreightWagon compareTo" />
   </component>
 </project>

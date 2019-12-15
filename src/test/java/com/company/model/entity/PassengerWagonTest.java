@@ -11,19 +11,19 @@ public class PassengerWagonTest {
     @Test
     public void testCompareToPassengerWagonsToFreight() {
         int result = passengerWagon.compareTo(new FreightWagon("name", 31, 5,32));
-        assertEquals(-1, result);
+        assertTrue( result < 0);
     }
 
     @Test
     public void testCompareToPassengerWagonsByComfortLevelBiggerToLow(){
         int result = passengerWagon.compareTo(new PassengerWagon("name3", 3123,ComfortLevel.WEAK));
-        assertEquals(1,result);
+        assertTrue( result > 0);
     }
 
     @Test
     public void testCompareToPassengerWagonsByComfortLevelLesserToBigger(){
         int result =(new PassengerWagon("name3", 3123,ComfortLevel.WEAK)).compareTo(passengerWagon);
-        assertEquals(-1,result);
+        assertTrue( result < 0);
     }
 
     @Test

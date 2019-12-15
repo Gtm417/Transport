@@ -1,6 +1,7 @@
 package com.company.model.entity;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Describes passenger wagons
@@ -10,7 +11,7 @@ import java.util.ArrayList;
 
 public class PassengerWagon extends Wagon {
     private int maxValueOfPassengers;
-    private ArrayList<Passenger> passengers;
+    private List<Passenger> passengers;
     private ComfortLevel comfortLevel;
 
 
@@ -55,19 +56,11 @@ public class PassengerWagon extends Wagon {
         if(wagon instanceof FreightWagon){
             return -1;
         }
-        return compare(wagon);
+        PassengerWagon passengerWagon = (PassengerWagon) wagon;
+        return this.comfortLevel.ordinal() - passengerWagon.comfortLevel.ordinal();
     }
 
-    private int compare(Wagon wagon) {
-        PassengerWagon passengerWagon = (PassengerWagon) wagon;
-        if(this == passengerWagon || this.comfortLevel.ordinal() == passengerWagon.comfortLevel.ordinal()) {
-            return 0;
-        }
-        if(this.comfortLevel.ordinal() > passengerWagon.comfortLevel.ordinal()){
-            return 1;
-        }
-        return -1;
-    }
+
 
     @Override
     public String toString() {
@@ -101,7 +94,7 @@ public class PassengerWagon extends Wagon {
         this.comfortLevel = comfortLevel;
     }
 
-    public ArrayList<Passenger> getPassengers() {
+    public List<Passenger> getPassengers() {
         return passengers;
     }
 
