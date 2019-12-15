@@ -28,6 +28,9 @@ public class PassengerWagon extends Wagon {
     }
 
 
+    public static boolean isInDiapason(PassengerWagon wagon, int minPassengers, int maxPassengers){
+        return wagon.getAmountOfPassengers() <= maxPassengers && wagon.getAmountOfPassengers() >= minPassengers;
+    }
 
     /**
      * get baggage weight every passenger and sum

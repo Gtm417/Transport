@@ -3,8 +3,8 @@ package com.company.model;
 import com.company.model.entity.*;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * describe train and has main functions described in task
@@ -70,18 +70,16 @@ public class Train {
      * @return ArrayList of Wagons that in range
      */
     public List<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
-        ArrayList<Wagon> resultListOfWagons = new ArrayList<>();
-        for(Wagon wagon : wagons){
-            if(wagon instanceof PassengerWagon && isInDiapason((PassengerWagon)wagon, minPassengers,maxPassengers)){
-                resultListOfWagons.add(wagon);
-            }
-        }
-        return resultListOfWagons;
+        return wagons.stream().
+                filter(wagon -> wagon instanceof PassengerWagon).
+                filter(wagon -> ((PassengerWagon) wagon).getAmountOfPassengers() <= maxPassengers
+                        && ((PassengerWagon) wagon).getAmountOfPassengers() >= minPassengers).
+                collect(Collectors.toList());
+
     }
 
-    private boolean isInDiapason(PassengerWagon passengerWagon,int minPassengers, int maxPassengers){
-        return passengerWagon.getAmountOfPassengers() <= maxPassengers && passengerWagon.getAmountOfPassengers() >= minPassengers;
-    }
+
+
 
     @Override
     public String toString() {

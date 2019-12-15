@@ -4,6 +4,10 @@
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/TrainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Train.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/model/TrainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/model/TrainTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +47,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -55,6 +59,9 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.company.model" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.company.model.entity.PassengerWagon" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -246,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576421553740</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="refactoring sortWagons using Lambda">
+      <created>1576422786920</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576422786920</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -288,6 +302,7 @@
     <MESSAGE value="interface ITraction, edited FreightWagon compareTo" />
     <MESSAGE value="refactoring PassengerWagon compareTo" />
     <MESSAGE value="refactoring getTotalPassengers and getTotalBaggage StreamAPI" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring getTotalPassengers and getTotalBaggage StreamAPI" />
+    <MESSAGE value="refactoring sortWagons using Lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring sortWagons using Lambda" />
   </component>
 </project>
