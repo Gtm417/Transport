@@ -6,6 +6,7 @@ import com.company.model.initializeData.GenerateTrain;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -15,7 +16,7 @@ public class TrainTest {
     private Train train;
 
 
-    private boolean isSorted(ArrayList<Wagon> wagons){
+    private boolean isSorted(List<Wagon> wagons){
         for(int i = 0; i < wagons.size() - 1; i++){
             if(wagons.get(i).compareTo(wagons.get(i + 1)) > 0){
                 return false;

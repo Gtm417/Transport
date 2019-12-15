@@ -6,7 +6,7 @@ package com.company.model.entity;
  * @author Hodik Timofey
  * @see com.company.model.Train
  */
-public class Locomotive {
+public class Locomotive implements ITraction {
 
     private int speed;
     private int power;
@@ -14,6 +14,16 @@ public class Locomotive {
     public Locomotive(int speed, int power) {
         this.speed = speed;
         this.power = power;
+    }
+
+    @Override
+    public int speed() {
+        return speed;
+    }
+
+    @Override
+    public int power() {
+        return power;
     }
 
     public int getSpeed() {

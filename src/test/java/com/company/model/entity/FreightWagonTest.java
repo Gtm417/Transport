@@ -17,13 +17,13 @@ public class FreightWagonTest {
     @Test
     public void testCompareToFreightWagonsByMaxCarryingCapacityBiggerToLow(){
         int result = freightWagon.compareTo(new FreightWagon("name3", 3123,9,27));
-        assertEquals(1,result);
+        assertTrue(result > 0);
     }
 
     @Test
     public void testCompareToFreightWagonsByMaxCarryingCapacityLesserToBigger(){
         int result =(new FreightWagon("name3", 3123,9,27)).compareTo(freightWagon);
-        assertEquals(-1,result);
+        assertTrue(result < 0);
     }
 
     @Test

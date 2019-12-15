@@ -34,18 +34,8 @@ public class FreightWagon extends Wagon {
         if(wagon instanceof PassengerWagon){
             return 1;
         }
-        return compare(wagon);
-    }
-
-    private int compare(Wagon wagon) {
         FreightWagon freightWagon = (FreightWagon) wagon;
-        if(this == freightWagon || this.maxCarryingCapacity == freightWagon.maxCarryingCapacity) {
-            return 0;
-        }
-        if(this.maxCarryingCapacity > freightWagon.maxCarryingCapacity){
-            return 1;
-        }
-        return -1;
+        return this.maxCarryingCapacity - freightWagon.getMaxCarryingCapacity();
     }
 
     @Override

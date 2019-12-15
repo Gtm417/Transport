@@ -4,6 +4,7 @@ import com.company.model.entity.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * describe train and has main functions described in task
@@ -13,8 +14,8 @@ import java.util.Collections;
  */
 
 public class Train {
-    private ArrayList<Wagon> wagons;
-    private Locomotive locomotive;
+    private List<Wagon> wagons;
+    private ITraction locomotive;
 
 
     public Train(ArrayList<Wagon> wagons, Locomotive locomotive) {
@@ -82,11 +83,6 @@ public class Train {
     public ArrayList<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
         ArrayList<Wagon> resultListOfWagons = new ArrayList<>();
         for(Wagon wagon : wagons){
-            try{
-                PassengerWagon passengerWagon = (PassengerWagon)wagon;
-            }catch(ClassCastException ex){
-                continue;
-            }
             if(wagon instanceof PassengerWagon && isInDiapason((PassengerWagon)wagon, minPassengers,maxPassengers)){
                 resultListOfWagons.add(wagon);
             }
@@ -107,7 +103,7 @@ public class Train {
                 + getTotalCurrentCarryingCapacityOfTrain() + " carrying capacity freights wagons";
     }
 
-    public ArrayList<Wagon> getWagons() {
+    public List<Wagon> getWagons() {
         return wagons;
     }
 
@@ -115,7 +111,7 @@ public class Train {
         this.wagons = wagons;
     }
 
-    public Locomotive getLocomotive() {
+    public ITraction getLocomotive() {
         return locomotive;
     }
 
