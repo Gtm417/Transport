@@ -82,14 +82,20 @@ public class Train {
     public ArrayList<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
         ArrayList<Wagon> resultListOfWagons = new ArrayList<>();
         for(Wagon wagon : wagons){
-            if(wagon instanceof PassengerWagon){
-                PassengerWagon passengerWagon = (PassengerWagon) wagon;
-                if(passengerWagon.getAmountOfPassengers() <= maxPassengers && passengerWagon.getAmountOfPassengers() >= minPassengers){
-                    resultListOfWagons.add(wagon);
-                }
+            try{
+                PassengerWagon passengerWagon = (PassengerWagon)wagon;
+            }catch(ClassCastException ex){
+                continue;
+            }
+            if(wagon instanceof PassengerWagon && isInDiapason((PassengerWagon)wagon, minPassengers,maxPassengers)){
+                resultListOfWagons.add(wagon);
             }
         }
         return resultListOfWagons;
+    }
+
+    private boolean isInDiapason(PassengerWagon passengerWagon,int minPassengers, int maxPassengers){
+        return passengerWagon.getAmountOfPassengers() <= maxPassengers && passengerWagon.getAmountOfPassengers() >= minPassengers;
     }
 
     @Override

@@ -34,7 +34,7 @@ public class PassengerWagon extends Wagon {
      * @return 0.0 if wagon hasn't passengers
      */
     public double getBaggageWeight(){
-        double resultWeight = 0.0;
+        double resultWeight = 0.0; //лонг
         for(Passenger passenger : passengers) {
             resultWeight += passenger.getBaggageWeight();
         }
