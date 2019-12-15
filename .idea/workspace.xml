@@ -4,16 +4,6 @@
     <list default="true" id="5c2c54c5-c4ee-4152-a1a3-748cd60e09d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/entity/PassengerWagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/GenerateTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/initializeData/GenerateTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/model/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/model/TrainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Train.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/Passenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/entity/PassengerWagon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/initializeData/GenerateTrain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/initializeData/GenerateTrain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/model/TrainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/model/TrainTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576420347998</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactoring getTotalPassengers and getTotalBaggage StreamAPI">
+      <created>1576421553740</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576421553740</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -290,6 +287,7 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="interface ITraction, edited FreightWagon compareTo" />
     <MESSAGE value="refactoring PassengerWagon compareTo" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring PassengerWagon compareTo" />
+    <MESSAGE value="refactoring getTotalPassengers and getTotalBaggage StreamAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring getTotalPassengers and getTotalBaggage StreamAPI" />
   </component>
 </project>

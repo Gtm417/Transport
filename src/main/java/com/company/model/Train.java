@@ -28,7 +28,7 @@ public class Train {
      * Collection.sort using merge sort or binary sort
      */
     public void sortWagons(){
-        Collections.sort(wagons);
+        wagons.sort(Wagon::compareTo);
     }
 
     /**
@@ -58,13 +58,8 @@ public class Train {
      * @return sum of carrying capacity in all freight wagons
      */
     public int getTotalCurrentCarryingCapacityOfTrain(){
-        int totalCapacity = 0;
-        for(Wagon wagon : wagons){
-            if(wagon instanceof FreightWagon){
-                totalCapacity += ((FreightWagon) wagon).getCurrentCarryingCapacity();
-            }
-        }
-        return totalCapacity;
+        return wagons.stream().filter(wagon -> wagon instanceof FreightWagon).
+                mapToInt(wagon -> ((FreightWagon) wagon).getCurrentCarryingCapacity()).sum();
     }
 
 
