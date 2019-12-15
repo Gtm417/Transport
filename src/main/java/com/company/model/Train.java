@@ -36,27 +36,21 @@ public class Train {
      * @return sum of passenger amount in all wagons
      */
     public int getTotalNumberOfPassengers(){
-        int passengerRes = 0;
-        for(Wagon wagon : wagons){
-            if(wagon instanceof PassengerWagon){
-                passengerRes += ((PassengerWagon) wagon).getAmountOfPassengers();
-            }
-        }
-        return passengerRes;
+        return  wagons.stream().
+                filter(wagon -> wagon instanceof PassengerWagon).
+                mapToInt(wagon -> ((PassengerWagon) wagon).getAmountOfPassengers()).
+                sum();
     }
 
     /**
      * If train has only freight wagons method return 0.0;
      * @return sum of passenger baggage weight in all wagons
      */
-    public double getTotalBaggageWeight(){
-        double baggageRes = 0.0;
-        for(Wagon wagon : wagons){
-            if(wagon instanceof PassengerWagon){
-                baggageRes += ((PassengerWagon) wagon).getBaggageWeight();
-            }
-        }
-        return baggageRes;
+    public int getTotalBaggageWeight(){
+        return  wagons.stream().
+                filter(wagon -> wagon instanceof PassengerWagon).
+                mapToInt(wagon -> ((PassengerWagon) wagon).getBaggageWeight()).
+                sum();
     }
 
     /**
@@ -80,7 +74,7 @@ public class Train {
      * @param maxPassengers maximum amount of passengers
      * @return ArrayList of Wagons that in range
      */
-    public ArrayList<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
+    public List<Wagon> getWagonsInPassengerDiapason(int minPassengers, int maxPassengers){
         ArrayList<Wagon> resultListOfWagons = new ArrayList<>();
         for(Wagon wagon : wagons){
             if(wagon instanceof PassengerWagon && isInDiapason((PassengerWagon)wagon, minPassengers,maxPassengers)){

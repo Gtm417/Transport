@@ -61,7 +61,7 @@ public class GenerateTrain {
     private static ArrayList<Passenger> generateListOfPassengers(int numberOfPassenger) {
         ArrayList<Passenger> passengers = new ArrayList<>();
         for(int i = 1; i <= numberOfPassenger; i++){
-            passengers.add(new Passenger("name" + i, 10.0));
+            passengers.add(new Passenger("name" + i, 10));
         }
         return passengers;
     }

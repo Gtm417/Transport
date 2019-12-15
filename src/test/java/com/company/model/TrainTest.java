@@ -73,11 +73,11 @@ public class TrainTest {
         train = GenerateTrain.initializePassengerTrain();
         int minBarrier = 1;
         int maxBarrier = 3;
-        ArrayList<Wagon> wagonsInDiapason = train.getWagonsInPassengerDiapason(minBarrier,maxBarrier);
+        List<Wagon> wagonsInDiapason = train.getWagonsInPassengerDiapason(minBarrier,maxBarrier);
         assertTrue(isEveryWagonInDiapason(wagonsInDiapason,minBarrier,maxBarrier));
     }
 
-    private boolean isEveryWagonInDiapason(ArrayList<Wagon> wagons, int minBarrier, int maxBarrier) {
+    private boolean isEveryWagonInDiapason(List<Wagon> wagons, int minBarrier, int maxBarrier) {
         for(Wagon wagon : wagons){
             PassengerWagon passengerWagon = (PassengerWagon) wagon;
             if(passengerWagon.getAmountOfPassengers() < minBarrier || passengerWagon.getAmountOfPassengers() > maxBarrier){

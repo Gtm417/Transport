@@ -9,9 +9,9 @@ package com.company.model.entity;
 
 public class Passenger {
     private String  name;
-    private double baggageWeight;
+    private int baggageWeight;
 
-    public Passenger(String name, double baggageWeight) {
+    public Passenger(String name, int baggageWeight) {
         this.name = name;
         this.baggageWeight = baggageWeight;
     }
@@ -35,7 +35,7 @@ public class Passenger {
         return baggageWeight;
     }
 
-    public void setBaggageWeight(double baggageWeight) {
+    public void setBaggageWeight(int baggageWeight) {
         this.baggageWeight = baggageWeight;
     }
 }
