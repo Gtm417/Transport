@@ -18,7 +18,7 @@ public class Train {
     private ITraction locomotive;
 
 
-    public Train(ArrayList<Wagon> wagons, Locomotive locomotive) {
+    public Train(ArrayList<Wagon> wagons, ITraction locomotive) {
         this.wagons = wagons;
         this.locomotive = locomotive;
     }
